@@ -30,7 +30,10 @@ a:hover {
   text-decoration: line-through;
 }
 
-
+a:active {
+  color: #f65600;
+  text-decoration: line-through;
+}
 
 
 
@@ -99,7 +102,9 @@ a:hover {
    font-size: 25px;
     font-family: system-ui;
   }
-
+.corpo2{
+  padding: 50px;
+}
 
 
 
@@ -173,7 +178,7 @@ align-items: center;
 .container3{
   font-size: 20px;
   width: 300px;
-  margin-right: 500px;
+  margin-right: 200px;
 }
 .footer{
   background-color:  #f3a175;;
