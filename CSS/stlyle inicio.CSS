@@ -162,7 +162,7 @@ align-items: center;
 
 #imgfooter{
  height: 70px;
-  margin-right: 50git 0px;
+  margin-right: 300px;
  float: left;
 }
 
@@ -173,6 +173,7 @@ align-items: center;
 .container3{
   font-size: 20px;
   width: 300px;
+  margin-right: 500px;
 }
 .footer{
   background-color:  #f3a175;;
