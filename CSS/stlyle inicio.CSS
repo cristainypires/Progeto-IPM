@@ -1,0 +1,181 @@
+.todo {
+  margin-left: 130px;
+  margin-right: 130px;
+
+}
+.header{
+  color: black;
+  background-color: aqua;
+}
+
+.header img {
+  float: left;
+  margin-right: 10px;
+  height: 70px;
+
+
+}
+
+.header a {
+  text-decoration: none;
+  float: right;
+  color: rgb(0, 0, 0);
+  font-family: Courier, monospace;
+
+ 
+  padding: 20px;
+}
+a:hover {
+  color: #f65600;
+  text-decoration: line-through;
+}
+
+
+
+
+
+
+
+.corpo img {
+  float: right;
+  width: 40%;
+}
+
+.corpo h1 {
+  color: #f65600;
+  font-family: monospace;
+  font-size: 50px;
+}
+.corpo p {
+  font-size: 20px;
+  color: rgb(65, 65, 66);
+  font-family: Courier, monospace;
+
+}
+
+
+
+
+
+#search input[type="text"] {
+ 
+  border: 1px solid #f65600;
+  font: bold 12px Arial,Helvetica,Sans-serif;
+  color: #f65600;
+  width: 150px;
+  padding: 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+  }
+
+#search input[type="text"]:focus {
+  width: 300px;
+  }
+
+
+
+
+  .corpo2 img{
+    float: left;
+    
+   padding: 30px;
+    width: 500px;
+   
+  }
+  #click{
+    color: #f65600;
+  }
+  .corpo2 p{
+   margin: 10px;
+   font-size: 25px;
+    font-family: system-ui;
+  }
+
+
+
+
+
+
+
+.corpo3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corpo3 video{
+  height: 270px;
+  width: 100%;
+  text-align: center;
+  margin:0 auto;
+  display: block;
+  padding-right: 30px;
+}
+
+
+
+
+
+.footer{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#face{
+  color: blue;
+  font-size: 30px;
+  margin: 10px;
+}
+#what{
+  color: green;
+  font-size: 30px;
+  margin: 10px;
+}
+
+#inst{
+  color:#d6249f ;
+  font-size: 30px;
+  margin: 10px;
+}
+
+#phone{
+  color:#08d345 ;
+  font-size: 30px;
+  margin: 10px;
+}
+#envol{
+  color:#9ea09f ;
+  font-size: 30px;
+  margin: 10px;
+}
+
+#imgfooter{
+ height: 70px;
+  margin-right: 50git 0px;
+ float: left;
+}
+
+.container2{
+  font-size: 20px;
+  width: 300px;
+}
+.container3{
+  font-size: 20px;
+  width: 300px;
+}
+.footer{
+  background-color:  #f3a175;;
+  color: black;
+  width: 100%;
+}
