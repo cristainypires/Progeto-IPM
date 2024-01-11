@@ -135,6 +135,7 @@ a:active {
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 #face{
@@ -181,7 +182,14 @@ align-items: center;
   margin-right: 200px;
 }
 .footer{
-  background-color:  #f3a175;;
+  background-color: transparent;;
   color: black;
   width: 100%;
+  border: solid 1px;
+}
+.rodape{
+  color: white;
+  background-color: black;
+  padding: 10px;
+font-size: 15px;
 }

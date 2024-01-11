@@ -1,0 +1,177 @@
+/*.todo {
+    margin-left: 130px;
+    margin-right: 130px
+  } */
+
+  .header{
+    color: black;
+    background-color: aqua;
+  }
+  
+  .header img {
+    float: left;
+    margin-right: 10px;
+    height: 70px;
+  
+  
+  }
+  
+  .header a {
+    text-decoration: none;
+    float: right;
+    color: rgb(0, 0, 0);
+    font-family: Courier, monospace;
+  
+   
+    padding: 20px;
+  }
+  a:hover {
+    color: #f65600;
+    text-decoration: line-through;
+  }
+  
+  a:active {
+    color: #f65600;
+    text-decoration: line-through;
+  }
+  
+  
+  
+.corpo{
+  
+    height: 800px;
+    text-align: center;
+}
+  
+  .corpo img {
+    float: left;
+ 
+    padding: 20px;
+    
+  }
+  
+  .corpo h1 {
+    color:#f65600;
+    font-family: monospace;
+    font-size: 30px;
+  margin-top: 220px;
+  margin-left: 170px;
+
+  }
+  .corpo p {
+    font-size: 20px;
+    color: black;
+    margin-left: 500px;
+    margin-right: 200px;
+  
+  }
+
+  #a1{
+
+   margin-left: 450px;
+   height: 100px;
+   
+  }
+  
+  
+  
+  
+ 
+  
+
+
+
+.captura img{
+ margin-left: 60px;
+}
+.captura{
+   
+   
+    font-size: 30px;
+    text-align: center;
+    padding: 2px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    #face{
+      color: blue;
+      font-size: 30px;
+      margin: 10px;
+     
+    }
+    #what{
+      color: green;
+      font-size: 30px;
+      margin: 10px;
+    
+    }
+    
+    #inst{
+      color:#d6249f ;
+      font-size: 30px;
+      margin: 10px;
+     
+    }
+    
+    #phone{
+      color:#08d345 ;
+      font-size: 30px;
+      margin: 10px;
+    
+    }
+    #envol{
+      color:#9ea09f ;
+      font-size: 30px;
+      margin: 10px;
+      
+    }
+    
+    #imgfooter{
+     height: 70px;
+      margin-right: 300px;
+     float: left;
+     margin-left: 500px;
+   
+    }
+    
+    .container2{
+      font-size: 18px;
+      width: 300px;
+     
+      margin-left: 500px;
+    }
+    .container3{
+      font-size: 20px;
+      width: 300px;
+      margin-right: 20px;
+      margin-left: 500px;
+    }
+    .footer{
+      border: solid 1px;
+      color: black;
+      width: 100%;
+      text-align: center;
+      
+       
+    }
+    .rodape{
+      color: white;
+      background-color: black;
+      padding: 10px;
+    font-size: 15px;
+    }
+    .fundo{
+   background-color: white;
+    }
