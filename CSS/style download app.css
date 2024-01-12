@@ -1,39 +1,42 @@
-/*.todo {
-    margin-left: 130px;
-    margin-right: 130px
-  } */
+.todo {
+  margin-left: 130px;
+  margin-right: 130px;
+  background-image: url(../IMG/fund\ inicio.png);
+  background-size: cover;
 
-  .header{
-    color: black;
-    background-color: aqua;
-  }
-  
-  .header img {
-    float: left;
-    margin-right: 10px;
-    height: 70px;
-  
-  
-  }
-  
-  .header a {
-    text-decoration: none;
-    float: right;
-    color: rgb(0, 0, 0);
-    font-family: Courier, monospace;
-  
-   
-    padding: 20px;
-  }
-  a:hover {
-    color: #f65600;
-    text-decoration: line-through;
-  }
-  
-  a:active {
-    color: #f65600;
-    text-decoration: line-through;
-  }
+}
+.header{
+  color:white;
+  background-color: aqua;
+}
+
+.header img {
+  float: left;
+  margin-right: 10px;
+  height: 70px;
+
+
+}
+
+.header a {
+  text-decoration: none;
+  float: right;
+  color:white;
+  font-family: Courier, monospace;
+
+ 
+  padding: 20px;
+}
+a:hover {
+  color: #f65600;
+  text-decoration: line-through;
+}
+
+a:active {
+  color: #f65600;
+  text-decoration: line-through;
+}
+
   
   
   
@@ -45,7 +48,7 @@
   
   .corpo img {
     float: left;
- 
+ height: 600px;
     padding: 20px;
     
   }
@@ -60,11 +63,17 @@
   }
   .corpo p {
     font-size: 20px;
-    color: black;
+    color:white;
     margin-left: 500px;
     margin-right: 200px;
   
   }
+  #a2{
+
+    margin-left: 450px;
+    height: 100px;
+    
+   }
 
   #a1{
 
@@ -104,75 +113,117 @@
 
 
 
+
+.footer{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  
+  }
+  
+  #face{
+    color: blue;
+    font-size: 30px;
+    margin: 10px;
+  }
+  #what{
+    color: green;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  #inst{
+    color:#d6249f ;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  #phone{
+    color:#08d345 ;
+    font-size: 30px;
+    margin: 10px;
+  }
+  #envol{
+    color:#9ea09f ;
+    font-size: 30px;
+    margin: 10px;
+  }
+  #map{
+    color:#9ea09f ;
+    font-size: 30px;
+    margin: 10px;
+  }
+  #you{
+    color:red ;
+    font-size: 30px;
+    margin: 10px;
+  }
+  #visa{
+    color:yellow ;
+    font-size: 40px;
+    margin: 10px;
+  }
+  #pay{
+    color:blue ;
+    font-size: 40px;
+    margin: 10px;
+  }
+  #master{
+    color:red ;
+    font-size: 40px;
+    margin: 10px;
+  }
+  
+  
+  
+  
+  #imgfooter{
+   height: 70px;
+    margin-right: 300px;
+   float: left;
+  }
+  
+  .container2{
+    font-size: 20px;
+    width: 500px;
     
-    #face{
-      color: blue;
-      font-size: 30px;
-      margin: 10px;
-     
-    }
-    #what{
-      color: green;
-      font-size: 30px;
-      margin: 10px;
+  }
+  .container4{
+    font-size: 20px;
+    width: 600px;
     
-    }
+  }
+  .container3{
+    font-size: 20px;
+    width: 400px;  margin-right: 20px;
+    margin-left: 20px;
+  
+  }
+  .container4{
+    font-size: 20px;
+    width: 500px;
+    margin-right: 20px;
+    margin-left: 20px;
     
-    #inst{
-      color:#d6249f ;
-      font-size: 30px;
-      margin: 10px;
-     
-    }
-    
-    #phone{
-      color:#08d345 ;
-      font-size: 30px;
-      margin: 10px;
-    
-    }
-    #envol{
-      color:#9ea09f ;
-      font-size: 30px;
-      margin: 10px;
-      
-    }
-    
-    #imgfooter{
-     height: 70px;
-      margin-right: 300px;
-     float: left;
-     margin-left: 500px;
-   
-    }
-    
-    .container2{
-      font-size: 18px;
-      width: 300px;
-     
-      margin-left: 500px;
-    }
-    .container3{
-      font-size: 20px;
-      width: 300px;
-      margin-right: 20px;
-      margin-left: 500px;
-    }
-    .footer{
-      border: solid 1px;
-      color: black;
-      width: 100%;
-      text-align: center;
-      
-       
-    }
-    .rodape{
-      color: white;
-    background-color: #1b1b1b;
-    padding: 15px 0;
-    font-size: 12px;
-    line-height: 1;
-    }
-    .fundo{
-   background-color: white;
-    }
+  
+  }
+  .footer{
+    background-color: transparent;;
+    color:white;
+    width: 100%;
+    border: solid 1px;
+    border-color: #f65600;
+  }
+  .rodape{
+    color: white;
+    background-color: black;
+    padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  }
+  #til{
+   font-weight: bold;
+  }
+  
