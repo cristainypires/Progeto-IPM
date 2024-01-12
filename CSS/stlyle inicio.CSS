@@ -85,6 +85,7 @@ a:active {
   -moz-transition: all 0.7s ease 0s;
   -o-transition: all 0.7s ease 0s;
   transition: all 0.7s ease 0s;
+  background-color: transparent;
   }
 
 #search input[type="text"]:focus {
