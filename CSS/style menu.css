@@ -4,28 +4,29 @@
     background-size: cover;
     margin-left: 100px;
     margin-right: 100px;
+    }
+  #login{
+    color:rgb(255, 255, 255) ;
+    font-size: 40px;
+    margin: 10px;
+  }
   
-  }
-  .header{
-    color:white;
-    background-color: aqua;
-  }
+  
   
   .header img {
     float: left;
-    margin-right: 10px;
+    margin-right: 80px;
     height: 70px;
-  
+    margin-top: 10px;
   
   }
   
   .header a {
     text-decoration: none;
-    float: right;
+    float: left;
     color:white;
     font-family: Courier, monospace;
-  
-   
+  margin-top: 10px;
     padding: 20px;
   }
   a:hover {
@@ -37,10 +38,32 @@
     color: #f65600;
     text-decoration: line-through;
   }
-
-
-
-
+  #search input[type="text"] {
+ 
+    border: 1px solid #f65600;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #f65600;
+    width: 150px;
+    padding: 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    background-color: transparent;
+    margin-top: 20px;
+    float: right;
+    }
+  
+  #search input[type="text"]:focus {
+    width: 300px;
+    }
 
 
 
