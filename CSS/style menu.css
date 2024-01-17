@@ -278,8 +278,8 @@ border-radius: 5px;
 
 
 .pequeno{
-  background-image: url(../IMG/pequeno\ almoco/);
-  background-size: cover;
+  background-image: url(../IMG/pequeno\ almoco/fund.png);
+
   color: rgb(0, 0, 0);
   width: 400px;
   height: 350px;
@@ -309,8 +309,8 @@ border-radius: 5px;
 
  }
 .massas{
-  background-image: url(../IMG/menu/massas/fundo.jpg);
-  background-size: cover;
+  background-image: url(../IMG/massas/fund.png);
+ 
   color: rgb(0, 0, 0);
   width: 400px;
   height: 350px;
@@ -339,8 +339,8 @@ border-radius: 5px;
 
  }
 .sobremesas{
-  background-image: url(../IMG/menu/sobremensas/1.jpg);
-  background-size: cover;
+  background-image: url(../IMG/sobremesas/fund.png);
+
   color: rgb(0, 0, 0);
   width: 400px;
   height: 350px;
@@ -369,7 +369,7 @@ border-radius: 5px;
 }
 
 .Bebidassem{
-  background-image: url(../IMG/menu/sucos/1.jpg);
+  background-image: url(../IMG/bebidas\ sem\ alcool/fund.png);
   background-size: cover;
   color: rgb(0, 0, 0);
   width: 400px;
@@ -399,7 +399,7 @@ border-radius: 5px;
 
  }
 .bebidas{
-  background-image: url(../IMG/menu/fund\ vinho.jpg);
+  background-image: url(../IMG/bebidas\ e\ vinho/fund.png);
   background-size: cover;
   color: rgb(0, 0, 0);
   width: 400px;
