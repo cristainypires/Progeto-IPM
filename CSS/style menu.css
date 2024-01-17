@@ -1,0 +1,551 @@
+
+    .todo {
+    background-image: url(../IMG/fund\ inicio.png);
+    background-size: cover;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+  }
+  .header{
+    color:white;
+    background-color: aqua;
+  }
+  
+  .header img {
+    float: left;
+    margin-right: 10px;
+    height: 70px;
+  
+  
+  }
+  
+  .header a {
+    text-decoration: none;
+    float: right;
+    color:white;
+    font-family: Courier, monospace;
+  
+   
+    padding: 20px;
+  }
+  a:hover {
+    color: #f65600;
+    text-decoration: line-through;
+  }
+  
+  a:active {
+    color: #f65600;
+    text-decoration: line-through;
+  }
+
+
+
+
+
+
+
+  .corpo{
+    display: flex;
+    text-align: center;
+    margin-left: 120px;
+margin-top: 50px;
+  }
+
+
+
+.entradas{
+    background-image: url(../IMG/entradas/fund.png);
+
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 350px;
+    padding: 15px;
+    text-align: center;
+    font-size: 45px;
+ margin-right: 50px;
+ border-style: solid;
+    border-width: 0px 0px 10px 0px;
+    border-color:#f65600;
+}
+
+
+.entradas a{
+  text-decoration: none;
+  background-color: #f65600;
+  color: rgb(12, 12, 12);
+  padding: 5px;
+  border-radius: 5px;
+}
+ .entradas:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+
+.saladas{
+  background-image: url(../IMG/saladas/fund.png);
+
+  color: rgb(0, 0, 0);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+  margin-right: 50px;
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color:#f65600;
+
+}
+
+
+.saladas a{
+text-decoration: none;
+background-color: #f65600;
+color: rgb(12, 12, 12);
+padding: 5px;
+border-radius: 5px;
+}
+.saladas:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+
+.pizzas{
+  background-image: url(../IMG/pizzas/fund.png);
+ 
+  color: rgb(19, 18, 18);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+  border-style: solid;
+    border-width: 0px 0px 10px 0px;
+    border-color:#f65600;
+
+}
+
+
+.pizzas a{
+text-decoration: none;
+background-color: #f65600;
+color: rgb(0, 0, 0);
+padding: 5px;
+border-radius: 5px;
+}
+
+.pizzas:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+
+.sandwiches{
+  background-image: url(../IMG/sandwich/fund.png);
+
+  color: rgb(2, 2, 2);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+  margin-right: 50px;
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color:#f65600;
+}
+
+.sandwiches a{
+text-decoration: none;
+background-color: #f65600;
+color: rgb(0, 0, 0);
+padding: 5px;
+border-radius: 5px;
+}
+.sandwiches:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+
+
+.mariscos{
+  background-image: url(../IMG/mariscos/fund.png);
+
+  color: rgb(0, 0, 0);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+  margin-right: 50px;
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color:#f65600;
+}
+
+
+.mariscos a{
+text-decoration: none;
+background-color: #f65600;
+color: rgb(2, 2, 2);
+padding: 5px;
+border-radius: 5px;
+}
+
+.mariscos:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+
+.peixes{
+  background-image: url(../IMG/peixes/fund.png);
+
+  color: rgb(0, 0, 0);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+  border-style: solid;
+    border-width: 0px 0px 10px 0px;
+    border-color:#f65600;
+
+}
+
+
+.peixes a{
+text-decoration: none;
+background-color: #f65600;
+color: rgb(0, 0, 0);
+padding: 5px;
+border-radius: 5px;
+}
+.peixes:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+
+
+.carnes{
+  background-image: url(../IMG/carnes/fund.png);
+
+  color: rgb(0, 0, 0);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+  margin-right: 50px;
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color:#f65600;
+}
+
+
+.carnes a{
+text-decoration: none;
+background-color: #f65600;
+color: rgb(0, 0, 0);
+padding: 5px;
+border-radius: 5px;
+}
+
+.carnes:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+
+
+
+.pequeno{
+  background-image: url(../IMG/pequeno\ almoco/);
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+  margin-right: 50px;
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color:#f65600;
+}
+
+
+.pequeno a{
+text-decoration: none;
+background-color: #f65600;
+color: rgb(0, 0, 0);
+padding: 5px;
+border-radius: 5px;
+}
+
+.pequeno:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+.massas{
+  background-image: url(../IMG/menu/massas/fundo.jpg);
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+  margin-right: 50px;
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color:#f65600;
+}
+
+
+.massas a{
+text-decoration: none;
+background-color: #f65600;
+color: rgb(0, 0, 0);
+padding: 5px;
+border-radius: 5px;
+}
+.massas:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+.sobremesas{
+  background-image: url(../IMG/menu/sobremensas/1.jpg);
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+ 
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color:#f65600;
+}
+.sobremesas:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+
+.sobremesas a{
+text-decoration: none;
+background-color: #f65600;
+color: rgb(0, 0, 0);
+padding: 5px;
+border-radius: 5px;
+}
+
+.Bebidassem{
+  background-image: url(../IMG/menu/sucos/1.jpg);
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+  margin-right: 50px;
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color:#f65600;
+}
+
+
+.Bebidassem a{
+text-decoration: none;
+background-color: #f65600;
+color: rgb(0, 0, 0);
+padding: 5px;
+border-radius: 5px;
+}
+.Bebidassem:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+.bebidas{
+  background-image: url(../IMG/menu/fund\ vinho.jpg);
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+  margin-right: 50px;
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color:#f65600;
+}
+
+
+.bebidas a{
+text-decoration: none;
+background-color: #f65600;
+color: rgb(0, 0, 0);
+padding: 5px;
+border-radius: 5px;
+}
+.bebidas:hover{
+  filter: blur(5px);
+  filter: brightness(0.7);
+ 
+  border-color:white;
+
+ }
+
+
+
+
+
+
+
+  
+.footer{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    
+    }
+    
+    #face{
+      color: blue;
+      font-size: 30px;
+      margin: 10px;
+    }
+    #what{
+      color: green;
+      font-size: 30px;
+      margin: 10px;
+    }
+    
+    #inst{
+      color:#d6249f ;
+      font-size: 30px;
+      margin: 10px;
+    }
+    
+    #phone{
+      color:#08d345 ;
+      font-size: 30px;
+      margin: 10px;
+    }
+    #envol{
+      color:#9ea09f ;
+      font-size: 30px;
+      margin: 10px;
+    }
+    #map{
+      color:#9ea09f ;
+      font-size: 30px;
+      margin: 10px;
+    }
+    #you{
+      color:red ;
+      font-size: 30px;
+      margin: 10px;
+    }
+    #visa{
+      color:yellow ;
+      font-size: 40px;
+      margin: 10px;
+    }
+    #pay{
+      color:blue ;
+      font-size: 40px;
+      margin: 10px;
+    }
+    #master{
+      color:red ;
+      font-size: 40px;
+      margin: 10px;
+    }
+    
+    
+    
+    
+    #imgfooter{
+     height: 70px;
+      margin-right: 300px;
+     float: left;
+    }
+    
+    .container2{
+      font-size: 20px;
+      width: 500px;
+      
+    }
+    .container4{
+      font-size: 20px;
+      width: 600px;
+      
+    }
+    .container3{
+      font-size: 20px;
+      width: 400px;  margin-right: 20px;
+      margin-left: 20px;
+    
+    }
+    .container4{
+      font-size: 20px;
+      width: 500px;
+      margin-right: 20px;
+      margin-left: 20px;
+      
+    
+    }
+    .footer{
+      background-color: transparent;;
+      color:white;
+      width: 100%;
+      border: solid 1px;
+      border-color: #f65600;
+    }
+    .rodape{
+      color: white;
+      background-color: black;
+      padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    }
+    #til{
+     font-weight: bold;
+    }
+    
