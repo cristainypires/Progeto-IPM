@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,27 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INICIO</title>
-    <link rel="stylesheet" href="..">
+    <link rel="stylesheet" href="../CSS/entrada1.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body class="todo">
 
-
     <header class="header">
-
         <img src="../IMG/logo login.png" alt="logo">
-
         <div class="a">
             <a href="INICIO.HTML" id="inicio">Inicio</a>
             <a href="MENU.HTML">Menu</a>
-         
             <a href="Download App.html">Download APP</a>
             <a href="CONTACT NOS.HTML">Contact- nos</a>
-          
-          
             <a href="login.html" id="login"></a>
             <section class="corpo1">
                 <form method="get" action="/search" id="search">
@@ -37,53 +29,83 @@
         </div>
     </header>
 
-    
+    <br><br><br><br><br><br><br><br><br>
+
+    <section class="section">
+        <div class="prod">
+            <p id="p1">Buffalo Wings</p>
+            <p id="preco">800$</p>
+            <p>Asas de frango acompanhadas de batatas wedges </p>
+            <p>e molho especial</p>
+            <!--<form action="">
+                <label for="cars" id="p1">Tipo </label>
+                <select id="sele" name="carlist" form="carform">
+                    <option value="volvo" id="op">Escolha uma opcao</option>
+                    <option value="volvo" id="op">Simples</option>
+                    <option value="saab" id="op">Mista</option>
+                </select>
+            </form>-->
+            <br>
+            <a href=""><i class="far fa-comment-alt" id="envol"></i></a> Nota do  pedido
+            <br>
+            <textarea rows="4" cols="50" name="comment" form="usrform"> Algum pedido ou instrução em especial?</textarea>
+            <br><br>
+            <div class="number-input">
+                <button class="control-btn" onclick="decrement()">-</button>
+                <div class="number-display" id="numberDisplay">1</div>
+                <button class="control-btn" onclick="increment()">+</button>
+                <a href="#" id="ad" onclick="addToCart('prod', selectedColor, 20)"> Adicionar ao Carrinho</a>
+            </div>
+            <hr>
+            <div class="price-display" id="priceDisplay"> Preço Total: 800$</div>
+
+            <script>
+                let currentNumber = 1;
+
+                function updateDisplay() {
+                    document.getElementById('numberDisplay').innerText = currentNumber;
+                    updatePrice();
+                }
+
+                function updatePrice() {
+                    const price = currentNumber * 800;
+                    document.getElementById('priceDisplay').innerText = `Preço Total: ${price}$`;
+                }
+
+                function increment() {
+                    currentNumber++;
+                    updateDisplay();
+                }
+
+                function decrement() {
+                    if (currentNumber > 0) {
+                        currentNumber--;
+                        updateDisplay();
+                    }
+                }
+
+               
+            </script>
+        </div>
+
+        <img src="../IMG/entradas/2.jpg" alt="">
+    </section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
     <footer>
         <div class="footer">

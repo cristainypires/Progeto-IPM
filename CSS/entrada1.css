@@ -1,0 +1,394 @@
+.todo {
+    background-color: rgb(19, 18, 18);
+  
+    /*margin-left: 100px;
+    margin-right: 100px;*/
+  }
+  
+  #login {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin: 10px;
+  }
+  
+  
+  
+  .header img {
+    float: left;
+    margin-right: 80px;
+    height: 70px;
+    margin-top: 10px;
+  
+  }
+  
+  .header a {
+    text-decoration: none;
+    float: left;
+    color: white;
+    font-family: Courier, monospace;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  
+  a:hover {
+    color: #f65600;
+    text-decoration: line-through;
+  }
+  
+  a:active {
+    color: #f65600;
+    text-decoration: line-through;
+  }
+  
+  #search input[type="text"] {
+  
+    border: 1px solid #f65600;
+    font: bold 12px Arial, Helvetica, Sans-serif;
+    color: #f65600;
+    width: 150px;
+    padding: 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    background-color: transparent;
+    margin-top: 20px;
+    float: right;
+  }
+  
+  #search input[type="text"]:focus {
+    width: 300px;
+  }
+  
+  
+  .section img{
+   width: 40%;
+   margin-left: 30px;
+  }
+  
+.prod{
+    float: right;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+
+ #sele{
+    background-color: transparent;
+    font-size: 25px;
+    width: 400px;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+ }
+#op{
+    color: black;
+    background-color: transparent;
+}
+.prod textarea{
+    background-color: transparent;
+    font-size: 20px;
+    width: 500px;
+    color: rgb(97, 95, 95);
+    text-align: left;
+   
+    
+    
+}
+
+
+
+#ad{
+    color: white;
+    background-color:transparent;
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-decoration: none;
+      font-size: 30px;
+      margin: 20px;
+     
+      border: solid 1px;
+}
+
+
+.number-input {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.control-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+ 
+  border: solid 1px;
+
+}
+
+.number-display {
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 10px;
+ 
+}
+.price-display {
+  margin-top: 20px;
+ 
+}
+hr {
+  width: 100%;
+  margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .corpo{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+  
+  margin-right: 500px;
+    font-size: 25px;
+  }
+  .entrada1{
+    margin: 15px;
+    background-color: black;
+    border: 1px;
+  }
+  .entrada1 img{
+  width: 270px;
+  height: 300px;
+  margin-bottom: 5px;
+  
+  
+  }
+  #a{
+    display: block;
+    font-size: 20px;
+     font-weight: 300;
+    line-height: 1;
+    font-style: italic;
+    color: #e8e8e8;
+    text-decoration: none;
+  }
+  
+  #p1{
+   
+    font-family: inherit;
+  
+  font-size: 30px;
+    color: white;
+  }
+  
+  #preco{
+  color: #f65600;
+  font-size: 30px;
+  }
+  #a1{
+  color: white;
+  background-color: #f65600;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .footer {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  
+  }
+  
+  #face {
+    color: blue;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  #what {
+    color: green;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  #inst {
+    color: #d6249f;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  #phone {
+    color: #08d345;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  #envol {
+    color: #9ea09f;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  #map {
+    color: #9ea09f;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  #you {
+    color: red;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  #visa {
+    color: yellow;
+    font-size: 40px;
+    margin: 10px;
+  }
+  
+  #pay {
+    color: blue;
+    font-size: 40px;
+    margin: 10px;
+  }
+  
+  #master {
+    color: red;
+    font-size: 40px;
+    margin: 10px;
+  }
+  
+  
+  
+  
+  #imgfooter {
+    height: 70px;
+    margin-right: 300px;
+    float: left;
+  }
+  
+  .container2 {
+    font-size: 20px;
+    width: 500px;
+  
+  }
+  
+  .container4 {
+    font-size: 20px;
+    width: 600px;
+  
+  }
+  
+  .container3 {
+    font-size: 20px;
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+  }
+  
+  .container4 {
+    font-size: 20px;
+    width: 500px;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+  
+  }
+  
+  .footer {
+    background-color: transparent;
+    ;
+    color: white;
+    width: 100%;
+    border: solid 1px;
+    border-color: #f65600;
+  }
+  
+  .rodape {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  #til {
+    font-weight: bold;
+  }
