@@ -6,27 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INICIO</title>
-    <link rel="stylesheet" href="../CSS/entradas.css">
+    <link rel="stylesheet" href="../CSS/entrada1.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body class="todo">
 
-
     <header class="header">
-
         <img src="../IMG/logo login.png" alt="logo">
-
         <div class="a">
             <a href="INICIO.HTML" id="inicio">Inicio</a>
             <a href="MENU.HTML">Menu</a>
-
             <a href="Download App.html">Download APP</a>
             <a href="CONTACT NOS.HTML">Contact- nos</a>
-
-
             <a href="login.html" id="login"></a>
             <section class="corpo1">
                 <form method="get" action="/search" id="search">
@@ -35,107 +28,73 @@
             </section>
         </div>
     </header>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <section class="corpo">
-        <div class="entrada1">
-            <img src="../IMG/entradas/1.jpg" alt="">
-            <br>
-            <a href="#" id="a"> Entrada</a>
-            <p id="p1">Bruchetas</p>
-            <p id="preco"> 400$</p>
-            <a href="entrada1.html" id="a1">Ver opcoes</a>
-            <br>
-            <br>
 
+    <br><br><br><br><br><br><br><br><br>
 
+    <section class="section">
+        <div class="prod">
+            <p id="p1">Salada de Frango Caesar</p>
+            <p id="preco">800$</p>
+            <p>Alface, tomate, queijo, crouton, azeitonas,  </p>
+            <p> e cubinhos  de frango com molho caesar</p>
+            <br>
+            <a href=""><i class="far fa-comment-alt" id="envol"></i></a> Nota do  pedido
+            <br>
+            <textarea rows="4" cols="50" name="comment" form="usrform"> Algum pedido ou instrução em especial?</textarea>
+            <br><br>
+            <div class="number-input">
+                <button class="control-btn" onclick="decrement()">-</button>
+                <div class="number-display" id="numberDisplay">1</div>
+                <button class="control-btn" onclick="increment()">+</button>
+                <a href="#" id="ad" onclick="addToCart('prod', selectedColor, 20)"> Adicionar ao Carrinho</a>
+            </div>
+            <hr>
+            <div class="price-display" id="priceDisplay"> Preço Total: 800$</div>
+
+            <script>
+                let currentNumber = 1;
+
+                function updateDisplay() {
+                    document.getElementById('numberDisplay').innerText = currentNumber;
+                    updatePrice();
+                }
+
+                function updatePrice() {
+                    const price = currentNumber * 800;
+                    document.getElementById('priceDisplay').innerText = `Preço Total: ${price}$`;
+                }
+
+                function increment() {
+                    currentNumber++;
+                    updateDisplay();
+                }
+
+                function decrement() {
+                    if (currentNumber > 0) {
+                        currentNumber--;
+                        updateDisplay();
+                    }
+                }
+
+               
+            </script>
         </div>
-        <div class="entrada1">
-            <img src="../IMG/entradas/2.jpg" alt="">
-            <br>
-            <a href="#" id="a"> Entrada</a>
-            <p id="p1">Buffalo Wings</p>
-            <p id="preco"> 800$</p>
-            <a href="entrada2.html" id="a1">Ver opcoes</a>
-            <br>
-            <br>
-        </div>
-        </div>
-        <div class="entrada1">
-            <img src="../IMG/entradas/3.jpg" alt="">
-            <br>
-            <a href="#" id="a"> Entrada</a>
-            <p id="p1">Búzio com azeite e alho</p>
-            <p id="preco"> 850$</p>
-            <a href="entrada3.html" id="a1">Ver opcoes</a>
-            <br>
-            <br>
-        </div>
-        <div class="entrada1">
-            <img src="../IMG/entradas/4.jpg" alt="">
-            <br>
-            <a href="#" id="a"> Entrada</a>
-            <p id="p1">Calamari com molho marina</p>
-            <p id="preco"> 700$</p>
-            <a href="entrada4.html" id="a1">Ver opcoes</a>
-            <br>
-            <br>
-        </div>
+
+        <img src="../IMG/saladas/1.jpg" alt="">
     </section>
 
-   
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
