@@ -121,6 +121,9 @@ margin-top: 50px;
   filter: blur(5px);
   filter: brightness(0.7);
  
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
   border-color:white;
 
  }
@@ -154,7 +157,9 @@ border-radius: 5px;
   filter: brightness(0.7);
  
   border-color:white;
-
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8)
  }
 
 .pizzas{
@@ -186,7 +191,9 @@ border-radius: 5px;
   filter: brightness(0.7);
  
   border-color:white;
-
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8)
  }
 
 .sandwiches{
@@ -216,7 +223,9 @@ border-radius: 5px;
   filter: brightness(0.7);
  
   border-color:white;
-
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8)
  }
 
 
@@ -249,7 +258,9 @@ border-radius: 5px;
   filter: brightness(0.7);
  
   border-color:white;
-
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8)
  }
 
 .peixes{
@@ -280,7 +291,9 @@ border-radius: 5px;
   filter: brightness(0.7);
  
   border-color:white;
-
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8)
  }
 
 
@@ -313,7 +326,9 @@ border-radius: 5px;
   filter: brightness(0.7);
  
   border-color:white;
-
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8)
  }
 
 
@@ -347,7 +362,9 @@ border-radius: 5px;
   filter: brightness(0.7);
  
   border-color:white;
-
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8)
  }
 .massas{
   background-image: url(../IMG/massas/fund.png);
@@ -377,7 +394,9 @@ border-radius: 5px;
   filter: brightness(0.7);
  
   border-color:white;
-
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8)
  }
 .sobremesas{
   background-image: url(../IMG/sobremesas/fund.png);
@@ -398,7 +417,9 @@ border-radius: 5px;
   filter: brightness(0.7);
  
   border-color:white;
-
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8)
  }
 
 .sobremesas a{
@@ -437,7 +458,13 @@ border-radius: 5px;
   filter: brightness(0.7);
  
   border-color:white;
-
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8)
  }
 .bebidas{
   background-image: url(../IMG/bebidas\ e\ vinho/fund.png);
@@ -465,9 +492,15 @@ border-radius: 5px;
 .bebidas:hover{
   filter: blur(5px);
   filter: brightness(0.7);
- 
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
   border-color:white;
-
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8)
+  
  }
 
 
