@@ -5,28 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" href="../CSS/style menu.css">
+ 
+    <link rel="stylesheet" href="../CSS/entrada1.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Click Food</title>
+  
+    <title>Click Food</title>  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="todo">
 
-
     <header class="header">
-
         <img src="../IMG/logo login.png" alt="logo">
-
         <div class="a">
-            <a href="../HTML/INICIO.HTML" id="inicio">Inicio</a>
-            <a href="../HTML/MENU.HTML">Menu</a>
-         
-            <a href="../HTML/Download App.html">Download APP</a>
-            <a href="../HTML/CONTACT NOS.HTML">Contact- nos</a>
-          
-          
+            <a href="INICIO.HTML" id="inicio">Inicio</a>
+            <a href="MENU.HTML">Menu</a>
+            <a href="Download App.html">Download APP</a>
+            <a href="CONTACT NOS.HTML">Contact- nos</a>
             <a href="login.html" id="login"></a>
             <section class="corpo1">
                 <form method="get" action="/search" id="search">
@@ -35,150 +29,74 @@
             </section>
         </div>
     </header>
-  
-    <br>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="titlo">
+    <br><br><br><br><br><br><br><br><br>
 
+    <section class="section">
+        <div class="prod">
+            <p id="p1">Cerveja</p>
+            <p id="preco">150$</p>
+           
+            <br>
+            <a href=""><i class="far fa-comment-alt" id="envol"></i></a> Nota do  pedido
+            <br>
+            <textarea rows="4" cols="50" name="comment" form="usrform"> Algum pedido ou instrução em especial?</textarea>
+            <br><br>
+            <div class="number-input">
+                <button class="control-btn" onclick="decrement()">-</button>
+                <div class="number-display" id="numberDisplay">1</div>
+                <button class="control-btn" onclick="increment()">+</button>
+                <a href="#" id="ad" onclick="addToCart('prod', selectedColor, 20)"> Adicionar ao Carrinho</a>
+            </div>
+            <hr>
+            <div class="price-display" id="priceDisplay"> Preço Total: 150$</div>
 
-   <p id="Food"> Menu Click Food </p>
-    <p>Escolha aqui e come na sua casa</p>
-</div>
-<br>
+            <script>
+                let currentNumber = 1;
 
-<br>
-    <section class="corpo">
-        <div class="entradas">
-            <h1>Entradas</h1>
-            <a href="../HTML/entradas.html"> Ver Opcoes</a>
+                function updateDisplay() {
+                    document.getElementById('numberDisplay').innerText = currentNumber;
+                    updatePrice();
+                }
+
+                function updatePrice() {
+                    const price = currentNumber * 150;
+                    document.getElementById('priceDisplay').innerText = `Preço Total: ${price}$`;
+                }
+
+                function increment() {
+                    currentNumber++;
+                    updateDisplay();
+                }
+
+                function decrement() {
+                    if (currentNumber > 0) {
+                        currentNumber--;
+                        updateDisplay();
+                    }
+                }
+
+               
+            </script>
         </div>
 
-
-
-        <div class="saladas">
-            <h1>saladas</h1>
-            <a href="../HTML/saladas..html"> Ver Opcoes</a>
-
-
-        </div>
-
-        <div class="pizzas">
-            <h1>Pizzas</h1>
-            <a href="../HTML/pizza.html"> Ver Opcoes</a>
-
-
-        </div>
-
-
-
+        <img src="../IMG/bebidas e vinho/1.jpg" alt="">
     </section>
 
-
-<section class="corpo">
-
-    <div class="sandwiches">
-        <h1>sandwich</h1>
-        <a href="../HTML/sandwich.html"> Ver Opcoes</a>
-
-
-    </div>
-
-
-
-    <div class="mariscos">
-        <h1>Mariscos</h1>
-        <a href="../HTML/marisco.html"> Ver Opcoes</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
-    </div>
-
-    <div class="peixes">
-        <h1>Peixes</h1>
-        <a href="../HTML/peixe.html"> Ver Opcoes</a>
-
-
-    </div>
-
-</section>
-
-
-
-
-
-
-<section class="corpo">
-
-    <div class="carnes">
-        <h1>Carnes</h1>
-        <a href="../HTML/carnes.html"> Ver Opcoes</a>
-
-
-    </div>
-
-
-
-    <div class="pequeno">
-        <h1>Pequeno Almoco</h1>
-        <a href="../HTML/pequeno.html"> Ver Opcoes</a>
-
-
-    </div>
-
-    <div class="sobremesas">
-        <h1>Sobremesas</h1>
-        <a href="../HTML/sobremesa.html"> Ver Opcoes</a>
-
-
-    </div>
-
-</section>
-
-
-
-<section class="corpo">
-
-  
-
-
-    </div>
-    <div class="Bebidassem">
-        <h1>Bebidas sem Alcool</h1>
-        <a href="../HTML/semalcool.html"> Ver Opcoes</a>
-
-
-    </div>
-
-
-
-    <div class="bebidas">
-        <h1>Bebidas e vinhos</h1>
-        <a href="../HTML/alcool.html"> Ver Opcoes</a>
-
-
-    </div>
-
-   
-
-</section>
-
-
-
-
-
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
 
     <footer>

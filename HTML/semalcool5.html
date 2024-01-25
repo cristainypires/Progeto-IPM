@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../CSS/entrada1.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Click Food</title>
+</head>
+
+<body class="todo">                                        
+
+    <header class="header">
+        <img src="../IMG/logo login.png" alt="logo">
+        <div class="a">
+            <a href="INICIO.HTML" id="inicio">Inicio</a>
+            <a href="MENU.HTML">Menu</a>
+            <a href="Download App.html">Download APP</a>
+            <a href="CONTACT NOS.HTML">Contact- nos</a>
+            <a href="login.html" id="login"></a>
+            <section class="corpo1">
+                <form method="get" action="/search" id="search">
+                    <input name="q" type="text" size="40" placeholder="Search..." />
+                </form>
+            </section>
+        </div>
+    </header>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <section class="section">
+        <div class="prod">
+            <p id="p1">Ice Tea 33cl</p>
+            <p id="preco">200$</p>
+            
+            <form action="">
+                <label for="cars" id="p1">Tipo </label>
+                <select id="sele" name="carlist" form="carform">
+                    <option value="volvo" id="op">Escolha uma opcao</option>
+                    <option value="volvo" id="op">Limao</option>
+                    <option value="saab" id="op">Pessego</option>
+                    <option value="saab" id="op">Manga</option>
+                </select>
+            </form>
+            <br>
+            <a href=""><i class="far fa-comment-alt" id="envol"></i></a> Nota do  pedido
+            <br>
+            <textarea rows="4" cols="50" name="comment" form="usrform"> Algum pedido ou instrução em especial?</textarea>
+            <br><br>
+            <div class="number-input">
+                <button class="control-btn" onclick="decrement()">-</button>
+                <div class="number-display" id="numberDisplay">1</div>
+                <button class="control-btn" onclick="increment()">+</button>
+                <a href="#" id="ad" onclick="addToCart('prod', selectedColor, 20)"> Adicionar ao Carrinho</a>
+            </div>
+            <hr>
+            <div class="price-display" id="priceDisplay"> Preço Total: 200$</div>
+
+            <script>
+                let currentNumber = 1;
+
+                function updateDisplay() {
+                    document.getElementById('numberDisplay').innerText = currentNumber;
+                    updatePrice();
+                }
+
+                function updatePrice() {
+                    const price = currentNumber * 200;
+                    document.getElementById('priceDisplay').innerText = `Preço Total: ${price}$`;
+                }
+
+                function increment() {
+                    currentNumber++;
+                    updateDisplay();
+                }
+
+                function decrement() {
+                    if (currentNumber > 0) {
+                        currentNumber--;
+                        updateDisplay();
+                    }
+                }
+
+               
+            </script>
+        </div>
+
+        <img src="../IMG/bebidas sem alcool/5.jpg" alt="">
+    </section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+    <footer>
+        <div class="footer">
+
+            <div class="container1">
+
+                <img src="../IMG/logofooter1.png" alt="logo footer" id="imgfooter">
+
+
+            </div>
+
+            <div class="container2">
+                <p id="til">Operacoes</p>
+                <br>
+                <p>Rua de Angola 987, Mindelo Cabo Verde</p>
+                <p> De Seg a Seg /10:30h ate 4h</p>
+                <p> Quarta e Quinta- FECHADO</p>
+
+
+            </div>
+            <div class="container3">
+                <p id="til">Contactos</p>
+                <br>
+                <div class="midia">
+                    <a href="#"><i class="	fas fa-map-marker-alt" id="map"></i></a>Rua de Angola , Mindelo
+                    <a href="#"><i class="fas fa-envelope-open-text" id="envol"></i></a>clickfoodcv@gmail.com
+                    <a href="#"><i class="fas fa-phone-alt" id="phone"></i></a> 223 45 69
+                    <a href="#"><i class="fa fa-mobile-phone" id="envol"></i></a> 9875565
+
+                </div>
+            </div>
+            <div class="container4">
+                <p id="til">Siga-nos</p>
+                <a href="#"><i class="fab fa-facebook" id="face"></i></a>
+                <a href="#"> <i class="fab fa-instagram" id="inst"></i></a>
+                <a href="#"> <i class="	fab fa-whatsapp" id="what"></i></a>
+                <a href="#"> <i class="	fab fa-youtube" id="you"></i></a>
+
+                <p>Minha Conta</p>
+                <p>Termos e Condicoes</p>
+                <p>Politicas de Privacidade</p>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="rodape">&copy;2024 Click Food</div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
